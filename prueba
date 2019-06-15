@@ -1,0 +1,34 @@
+// Realice un programa que solicite de la entrada estándar un entero del 1 al  10 y muestre en la salida estándar su tabla de multiplicar. 
+
+
+
+
+#include<iostream>
+#include<stdlib.h>
+
+ 
+
+using namespace std;
+int main(){
+
+int numero;
+int i=1;
+
+do{
+	cout<<"Digite un numero entre 1 y 10\n"; 
+	cin >> numero;
+   
+}while ((numero<1)||(numero>10));
+
+for( i=1;i<=30;i++){
+	
+	 cout<< numero<<"*"<<i<<"="<<numero*i<<"\n";
+	
+};
+
+ 
+
+system("pause");
+return 0;
+
+}
